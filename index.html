@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#specialisations">Specialisations</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1>Hi, I'm <span>DEBAYUDH</span><br><span>BHATTACHARYA From INDIA</span></h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a highly skilled IT professional with extensive experience in Java development and UI/UX design. Proficient in creating robust, scalable Java applications using frameworks like Spring and Hibernate, I excel in optimizing performance and integrating front-end and back-end components. My UI/UX expertise includes wireframing, prototyping, and user research, using tools such as Adobe XD and Figma to craft intuitive user experiences. Currently, I am expanding my skill set by learning machine learning, focusing on algorithms, data preprocessing, and model evaluation. My technical acumen is complemented by strong problem-solving abilities and a commitment to continuous learning.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>JAVA PROGRAMMING</span><br>SOLVING PROBLEM STATEMENTS OF JAVA</li>
+                        <li><span>MACHINE LEARNING</span><br>Building hardware Projects</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2024 - PRESENT</span><br>UI/UX Designer of team CODENGERS</li>
+                        <li><span> 2024</span><br>Internship at Oasis Infobyte</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023</span><br>passed out class 12th from SRI AUROBINDO INSTITUTE OF EDUCATION </li>
+                        <li><span>2023-2027</span><br>B.TECH from JIS COLLEGE OF ENGINEERING,KALYANI</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Specialisations</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>JAVA PROGRAMMER</h2>
+                <p>Designed and implemented robust Java applications, leveraging Spring and Hibernate frameworks.
+                    Optimized application performance and ensured scalability through efficient coding practices and regular code reviews.
+                    Collaborated with cross-functional teams to integrate front-end and back-end components seamlessly.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>UI/UX Design</h2>
+                <p>conducted user research to gather insights and translate them into user-centric design solutions.
+                    Created wireframes, prototypes, and high-fidelity designs using Adobe XD and Figma.
+                    Conducted usability testing and iterated on designs based on user feedback to enhance user experience.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>MACHINE LEARNING</h2>
+                <p>Actively learning machine learning techniques to broaden analytical skills and contribute to data-driven projects.
+                    Engaged in online courses and hands-on projects to deepen understanding of algorithms, data preprocessing, and model evaluation.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>HACKATHON PROJECT</h3>
+                    <p>participated and tried to make a BIOMETRIC BASED DOOR LOCK SYSTEM</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Cybersecurity Workshop</h3>
+                    <p>Workshop Conducted By Team CYBER DOJO, where i learned some hands on projects about how to crack some passcodes and also learned about the world of cybersecurity and made me enthusiastic about the field</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+
+                <div class="layer">
+                    <h3>Environmental CLUB of JISCE</h3>
+                    <p>conduction of a program of "nurture the nature" conducted by the ENVIRONMENTAL CLUB OF JISCE , where many many speakers came and have thier speech about how to protect the nature and also about the side effects of destroying the natural resources</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> bhattacharyadebayudh13@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> 9433511636</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100073603102278&mibextid=ZbWKwL"><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/debayudh.xo?igsh=MTQweHZ5NzV5NTRiNw=="><i class="fab fa-instagram"></i></a>
+                    <a href="www.linkedin.com/in/debayudh-bhattacharya-3b375028b"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © DEBAYUDH. Made wtih FIGMA <i class="fas fa-heart"></i></p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = ' https://script.google.com/macros/s/AKfycbyDHD8PvXU3D3OuPY0_bDPqUT_cjHBkusIJTMNGzm6OWWvlZHgOdTzqhMb_YEwNM-OQ/exec' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
